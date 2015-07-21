@@ -1,0 +1,6 @@
+{description, "A basic OTP gen fsm"}.
+{variables, [
+    {name, "Name of the gen fsm"}
+]}.
+
+{template, "gen_fsm.erl", "src/{{name}}.erl"}.

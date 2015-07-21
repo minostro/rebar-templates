@@ -1,24 +1,16 @@
-%%% @author   {{author_name}} <{{author_email}}>
-%%% @copyright  {{copyright_year}}  {{author_name}}.
-%%% @doc      {{description}}
-
 -module({{name}}).
 -behaviour(gen_server).
 -define(SERVER, ?MODULE).
-
--author('{{author_name}} <{{author_email}}>').
 
 %% ------------------------------------------------------------------
 %% API Function Exports
 %% ------------------------------------------------------------------
 -export([start_link/1]).
 
-
 %% ------------------------------------------------------------------
 %% gen_server Function Exports
 %% ------------------------------------------------------------------
 -export([init/1, handle_call/3, handle_cast/2, terminate/2, handle_info/2, code_change/3]).
-
 
 %% ------------------------------------------------------------------
 %% API Function Definitions
